@@ -1,16 +1,25 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background: linear-gradient(to right, #36912a, #ffc609, #ff8018);
+    box-sizing: border-box;    
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
+body {
+    background: linear-gradient(to right, #36912a, #ffc609, #ff8018);
+}
+
+#container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 20vh;
     font-size: 18px;
     color: white;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
 }
